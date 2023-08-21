@@ -25,7 +25,7 @@ namespace WordleClone.Game
         {
             string[] instructions = { "Instructions", "1. Your guess must be five characters long, no special characters or white spaces.",
             "2. For each wrong letter, - is displayed. For right letter in the wrong place, * is displayed.",
-            "3. For example, if the answer is \"APPLE\" and you input \"PEARL\", the output would be \"P**R-\".",
+            "3. For example, if the answer is \"APPLE\" and you input \"ABBEY\", the output would be \"A--*-\".",
             "Good luck!"};
             return instructions;
         }
